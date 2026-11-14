@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//slask-kalender//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Śląsk Wrocław Frauen
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-2027-uj-krakow-slask-wroclaw@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20260802T173000
+DTEND;TZID=Europe/Warsaw:20260802T193000
+SUMMARY:UJ Kraków – Śląsk Wrocław (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 1. Spieltag\, Auswärtsspiel.\nErge
+ bnis 2:1.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-uks-sms-lodz@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20260808T170000
+DTEND;TZID=Europe/Warsaw:20260808T190000
+SUMMARY:Śląsk Wrocław – UKS SMS Łódź (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 2. Spieltag\, Heimspiel.\nErgebnis 
+ 1:1.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-aplg-gdansk@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20260816T170000
+DTEND;TZID=Europe/Warsaw:20260816T190000
+SUMMARY:Śląsk Wrocław – APLG Gdańsk (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 3. Spieltag\, Heimspiel.\nErgebnis 
+ 1:2.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-pogon-szczecin-slask-wroclaw@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20260822T120000
+DTEND;TZID=Europe/Warsaw:20260822T140000
+SUMMARY:Pogoń Szczecin – Śląsk Wrocław (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 4. Spieltag\, Auswärtsspiel.\nErge
+ bnis 5:0.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-rekord-bielsko-biala@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20260830T120000
+DTEND;TZID=Europe/Warsaw:20260830T140000
+SUMMARY:Śląsk Wrocław – Rekord Bielsko-Biała (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 5. Spieltag\, Heimspiel.\nErgebnis 
+ 1:1.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-lech-uam-poznan@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20260927T120000
+DTEND;TZID=Europe/Warsaw:20260927T140000
+SUMMARY:Śląsk Wrocław – Lech/UAM Poznań (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 6. Spieltag\, Heimspiel.\nErgebnis 
+ 2:2.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-czarni-sosnowiec@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20261004T120000
+DTEND;TZID=Europe/Warsaw:20261004T140000
+SUMMARY:Śląsk Wrocław – Czarni Sosnowiec (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 7. Spieltag\, Heimspiel.\nErgebnis 
+ 0:2.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-sleza-wroclaw-slask-wroclaw@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20261017T183000
+DTEND;TZID=Europe/Warsaw:20261017T203000
+SUMMARY:Ślęza Wrocław – Śląsk Wrocław (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 8. Spieltag\, Auswärtsspiel.\nErge
+ bnis 3:2.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-gks-katowice@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20261030T130000
+DTEND;TZID=Europe/Warsaw:20261030T150000
+SUMMARY:Śląsk Wrocław – GKS Katowice (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 9. Spieltag\, Heimspiel.\nErgebnis 
+ 1:4.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-legionistki-warszawa-slask-wroclaw@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20261107T130000
+DTEND;TZID=Europe/Warsaw:20261107T150000
+SUMMARY:Legionistki Warszawa – Śląsk Wrocław (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 10. Spieltag\, Auswärtsspiel.\nErg
+ ebnis 3:0.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-2027-slask-wroclaw-gornik-leczna@slask-kalender
+DTSTAMP:20260801T000000Z
+DTSTART;TZID=Europe/Warsaw:20261115T120000
+DTEND;TZID=Europe/Warsaw:20261115T140000
+SUMMARY:Śląsk Wrocław – Górnik Łęczna (Frauen)
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 11. Spieltag\, Heimspiel.\nQuelle: 
+ http://www.90minut.pl/liga/1/liga14769.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
