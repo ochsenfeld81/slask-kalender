@@ -1,0 +1,28 @@
+name: Spielplan holen
+on:
+  schedule:
+    - cron: "17 */4 * * *"   # alle 4 Stunden
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["slask.mjs", ".github/workflows/feed.yml"]
+permissions:
+  contents: write
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test
+      - run: node slask.mjs slask.ics
+      - name: Neue Datei committen, falls sich der Spielplan geändert hat
+        run: |
+          git add slask.ics
+          if git diff --cached --quiet; then echo "Keine Änderung"; exit 0; fi
+          git config user.name "slask-kalender"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Spielplan aktualisiert"
+          git push
