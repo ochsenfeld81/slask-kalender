@@ -130,8 +130,8 @@ DTSTAMP:20260801T000000Z
 DTSTART;TZID=Europe/Warsaw:20261115T120000
 DTEND;TZID=Europe/Warsaw:20261115T140000
 SUMMARY:Śląsk Wrocław – Górnik Łęczna (Frauen)
-DESCRIPTION:Orlen Ekstraliga (Frauen)\, 11. Spieltag\, Heimspiel.\nQuelle: 
- http://www.90minut.pl/liga/1/liga14769.html
+DESCRIPTION:Orlen Ekstraliga (Frauen)\, 11. Spieltag\, Heimspiel.\nErgebnis
+  1:1.\nQuelle: http://www.90minut.pl/liga/1/liga14769.html
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
